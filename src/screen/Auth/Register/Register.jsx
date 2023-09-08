@@ -1,8 +1,3 @@
-import Accordion from '@mui/material/Accordion';
-import AccordionSummary from '@mui/material/AccordionSummary';
-import AccordionDetails from '@mui/material/AccordionDetails';
-import Typography from '@mui/material/Typography';
-import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import EastIcon from '@mui/icons-material/East';
 import logo from '../../../assets/Logo.svg'
 import '../auth.scss'
@@ -41,20 +36,10 @@ const Register = () => {
                     <input type="text" placeholder='Пароль:' />
                     <input type="email" placeholder='E-mail:' />
                     <label >Тил</label>
-                    <Accordion className='form__input_mui'>
-                        <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        aria-controls="panel1a-content"
-                        id="panel1a-header"
-                        >
-                        <Typography>Кыргызча</Typography>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                        <Typography>
-                            <button>Русский</button>
-                        </Typography>
-                        </AccordionDetails>
-                    </Accordion>
+                    <select name="form" id="form" className='form__inp'>
+                        <option value="Кыргызча">Кыргызча</option>
+                        <option value="Русский">Русский</option>
+                    </select>
                     <input type="text" placeholder='Бала бакчанын аты' />
                     <label >Телефон: </label>
                     <input className='form-tele' type="text" placeholder='+996 '/>
