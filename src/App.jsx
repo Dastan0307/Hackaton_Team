@@ -1,8 +1,8 @@
 import { Route, Routes, useLocation } from 'react-router-dom';
-import Main from './screen/Main/Main';
+import Home from './screen/Main/Home';
 import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer'
-import './index.scss'
+import Footer from './components/Footer/Footer';
+import './styles/index.scss';
  
 function App() {
   const location = useLocation();
@@ -10,7 +10,7 @@ function App() {
     <>
       <Header />
         <Routes key={location.pathname} location={location}>
-          <Route path='/' element={ <Main />} />
+          <Route path='/' element={ <Home />} />
         </Routes>
       <Footer />
     </>
