@@ -1,4 +1,3 @@
-import React from "react";
 import './Home.scss';
 import { SliderCarousel } from "../../components/Slider";
 
