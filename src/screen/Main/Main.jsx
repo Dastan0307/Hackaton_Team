@@ -20,8 +20,8 @@ import oppor6 from "../img/oppor6.png";
 import oppor7 from "../img/oppor7.png";
 import family from "../img/family.png";
 import "./Main.scss";
-import Carousel from "./Carousel";
-import { Button } from "@mui/material";
+import Home from "./Home";
+// import Slider from "../../components/Slider";
 let days = [
   {
     id: 1,
@@ -85,7 +85,8 @@ const Main = () => {
   return (
     <>
       <div className="my-container">
-        <Carousel />
+        {/* <Slider /> */}
+        <Home />
         <div className="section-header">
           <h2 className="section-title">Система жөнүндө</h2>
           <p className="section-text">

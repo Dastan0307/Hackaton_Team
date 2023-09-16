@@ -1,4 +1,3 @@
-import React from "react";
 import "./footer.scss";
 import logo from "./imag/logo.png";
 import grass from "./imag/grass.png";
