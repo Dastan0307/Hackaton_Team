@@ -60,7 +60,7 @@ let babies = [
     id: 2,
     imag: baby2,
     text1: "2-кенже тоб",
-    text2: "3 жаш",
+    text2: "3",
   },
   {
     id: 3,
