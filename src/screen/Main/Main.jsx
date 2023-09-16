@@ -1,11 +1,10 @@
 import './main.scss';
 
-
 const Main = () => {
   return (
-    <div className="">
+    <div className="main-page">
       <a href='register'>Register</a>
-      <a href='profile'>Proflie</a>
+      <a href='profile'>Profile</a>
     </div>
   )
 };
