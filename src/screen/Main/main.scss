@@ -1,3 +1,265 @@
-a {
-    color: black;
+/* Обновленные классы */
+/* Контейнер */
+.my-container {
+  margin-bottom: 2.5rem;
+  padding-top: 2.5rem;
+  background-color: #ffffff;
+}
+
+/* Слайдер */
+// .my-carousel {
+//   /* Стили для вашего слайдера */
+// }
+
+/* Заголовок с фоном */
+.section-header {
+  background-color: #e5f3ff;
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+  font-weight: 500;
+  font-size: 1.875rem;
+  line-height: 49.03px;
+  margin: auto;
+  width: 96%;
+  box-shadow: 0px 5px 5px gray;
+}
+
+/* Заголовок текста */
+.section-title {
+  color: #0066cc;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.875rem;
+  line-height: 49.03px;
+  padding-bottom: 1.75rem;
+}
+
+/* Текст */
+.section-text {
+  color: #333333;
+  padding-left: 2.5rem;
+  padding-right: 3rem;
+}
+
+/* Ссылки на магазины */
+.store-link {
+  display: flex;
+  justify-content: center;
+}
+
+.store-link a {
+  width: 10rem;
+  margin-right: 5rem;
+  padding-top: 2rem;
+}
+.store-link__app {
+  margin-top: 0.6rem;
+}
+
+/* О нас раздел */
+.about-us {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
+.about-us h2 {
+  color: #002bc8;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.875rem;
+  line-height: 60px;
+  letter-spacing: 15%;
+}
+
+.about-us p {
+  color: #484848;
+}
+
+/* Изображение семьи */
+.custom-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .column-left {
+    // flex: 1;
+    width: 30rem;
+    padding: 20px;
+  }
+
+  .column-left img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 30px;
+  }
+
+  .column-right {
+    flex: 1;
+    padding: 0 20px 20px 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 40px;
+
+    h2 {
+      color: #002bc8; /* Синий цвет */
+      font-weight: bold;
+      font-size: 54px;
+      margin-bottom: 7px;
+    }
+
+    p {
+      color: #484848; /* Серый цвет */
+      font-size: 30px;
+      text-align: left;
+    }
+  }
+}
+.custom-container__par {
+  width: 93%;
+  margin: auto;
+  color: #484848; /* Серый цвет */
+  font-size: 30px;
+}
+/*  Курактык топтор */
+.old1 {
+  border: 1px solid #0634de;
+  margin: auto;
+  padding: 4rem 0;
+  margin: 2rem;
+  box-shadow: 1px 2px 5px 2px gray;
+  .old {
+    width: 70rem;
+    margin: auto;
+    padding: 1rem 2rem 3rem 3rem;
+    border: 2px dashed #0634de;
+    .old__h2 {
+      color: #002bc8;
+      text-align: center;
+      font-weight: 800;
+      font-size: 1.8rem;
+      line-height: 60px;
+      letter-spacing: 15%;
+      margin-bottom: 2rem;
+    }
+  }
+}
+/* Карточки с изображениями */
+.old__image-card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.old__card-item {
+  width: 9rem;
+}
+
+.old__card-item img {
+  max-width: 100%;
+}
+
+.old__card-item p {
+  margin-top: 1rem;
+}
+
+/* Мүмкүнчүлүктөр */
+.oppor {
+  display: flex;
+  margin-bottom: 5rem;
+}
+.oppor__h2 {
+  color: #002bc8;
+  text-align: center;
+  font-weight: 800;
+  font-size: 1.875rem;
+  line-height: 60px;
+  letter-spacing: 15%;
+  margin: 5rem 0 3rem;
+}
+.oppor__flex1 {
+  display: flex;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 5rem;
+
+  .oppor__flex2 {
+    display: flex;
+    background: linear-gradient(to bottom, #ffbe18, #e85f12);
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    padding: 10px 80px 10px 50px;
+    border-radius: 17px;
+  }
+  .oran {
+    padding: 10px 60px 10px 20px;
+  }
+  .green {
+    background: linear-gradient(to bottom, #b0ff4b, #69ad13);
+    padding: 10px 80px 10px 39px;
+  }
+  .green2 {
+    background: linear-gradient(to bottom, #b0ff4b, #69ad13);
+    padding: 10px 45px 10px 20px;
+    margin-right: 2rem;
+  }
+  .blue {
+    background: linear-gradient(to bottom, #bbe4fa, #57bdf3);
+    padding: 10px 42px 10px 20px;
+  }
+  .blue2 {
+    background: linear-gradient(to bottom, #bbe4fa, #57bdf3);
+    padding: 10px 93px 10px 45px;
+    margin-right: 2rem;
+  }
+}
+.text {
+  margin: 20px 0 4px 5px;
+}
+.teb6 {
+  margin-top: 30px;
+}
+// .oppor__imag1 {
+//
+// }
+// .oppor__str1 {
+//   width: 34%;
+// }
+
+.oppor__block {
+  background: #fff;
+  box-shadow: 1px 2px 5px 2px gray;
+  margin-left: 5 0px;
+  padding: 1rem 5rem 0 1rem;
+}
+.oppor__con {
+  display: flex;
+  font-weight: 600;
+  color: #484848;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-bottom: 10px;
+  margin-left: 1rem;
+}
+.oppor__str {
+  padding: 0.8rem 0 0 0.5rem;
+}
+
+/* button */
+
+.button {
+  text-align: center;
+  margin-top: 10rem;
+}
+.button__center {
+  display: inline-block;
+  padding: 9px 60px 9px 60px; /* Размеры кнопки */
+  border: none;
+  cursor: pointer;
+  border-radius: 17px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  background: linear-gradient(to right, #f20a0a, #f2d428);
 }
