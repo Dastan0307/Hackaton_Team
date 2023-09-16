@@ -1,14 +1,12 @@
-import React from 'react';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
-import "slick-carousel/slick/slick-theme.css";
+import '../../pages/home/Home.scss';
 import './SliderCarousel.scss';
 import children from '../../images/background/children.png';
 import ball from '../../images/background/ball.png';
 
 
 
-export const SliderCarousel = () => {
+const SliderCarousel = () => {
     const settings = {
         dots: true,
         infinite: true,
@@ -53,3 +51,5 @@ export const SliderCarousel = () => {
         </div>
     );
 };
+
+export default SliderCarousel;
