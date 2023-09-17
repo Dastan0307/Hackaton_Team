@@ -1,0 +1,158 @@
+ul {
+  font-size: 16px;
+  list-style-type: disc; /* Устанавливает стандартный маркер (точка) */
+}
+.custom-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 8px 4rem;
+  border-radius: 20px;
+  background: #8cbbf2;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+//! главная //
+.daily {
+  display: flex;
+  justify-content: center;
+  .daily__first {
+    margin-right: 10rem;
+  }
+}
+//! Сабактардын жүгүртмөсү //
+
+.daily1 {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 4rem;
+  background: #fff;
+  box-shadow: 0px 5px 5px gray;
+  &__h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 26px;
+    color: #298d94;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 2.6px;
+    font-family: Roboto;
+  }
+  &__block {
+    margin-left: 10rem;
+  }
+  &__li {
+    margin-bottom: 10px;
+    color: #121212;
+    font-family: Montserrat Alternates;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.65px;
+  }
+}
+//! Күнүмдук сабак темалары //
+.glav {
+  display: flex;
+}
+.daily2 {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 4rem;
+  background: #fff;
+  box-shadow: 0px 5px 5px gray;
+  &__block {
+    margin-left: 2rem;
+  }
+  &__h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 26px;
+    color: #298d94;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 2.6px;
+    font-family: Roboto;
+  }
+}
+.daily3 {
+  &__h3 {
+    color: #59519f;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 125% */
+    text-decoration-line: underline;
+  }
+  span {
+    color: #ff6b00;
+    font-family: Montserrat Alternates;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+  }
+  p {
+    color: #121212;
+    font-family: Montserrat Alternates;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+  }
+  &__block3 {
+    margin-left: 230px;
+  }
+  &__block4 {
+    margin-left: 270px;
+  }
+}
+.daily4 {
+  border: 0.5px solid rgba(51, 88, 210, 1);
+  width: 38%;
+  padding: 0px 20px 40px;
+  margin-right: 20px;
+  background: #fff;
+  box-shadow: #3358d2;
+  h3 {
+    color: #0634de;
+    margin-top: 40px;
+    font-family: Roboto;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.845px; /* 171.86% */
+    letter-spacing: 0.81px;
+  }
+  &__block {
+    text-align: center;
+    margin-top: 20px;
+  }
+  &__block1 {
+    padding: 4px;
+    border-radius: 20px;
+    background: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.2) 0%,
+        rgba(0, 0, 0, 0.2) 100%
+      ),
+      #6f65c7;
+    color: #fff;
+    font-family: Montserrat Alternates;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.845px; /* 121.064% */
+    letter-spacing: 1.15px;
+  }
+  &__block2 {
+    margin-top: 10px;
+    color: #3358d2;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27.845px; /* 174.03% */
+    letter-spacing: 0.8px;
+    text-decoration-line: underline;
+  }
+}
