@@ -8,6 +8,7 @@ import Register from "./screen/Auth/Register/Register";
 import ProfilePage from "./screen/ProfilePage/ProfilePage";
 import DailyOrder from "./pages/DailyOrder/DailyOrder";
 import LessonGrid from "./pages/LessonGrid/LessonGrid";
+import SuccesAuth from "./pages/SuccesAuth/SuccesAuth";
 
 function App() {
   const location = useLocation();
@@ -23,6 +24,7 @@ function App() {
         {/* <Route path="/daily-order1" element={<DailyOrder1 />} /> */}
         {/* <Route path="/daily-order2" element={<DailyOrder2 />} /> */}
         <Route path="/lesson-Grid" element={<LessonGrid />} />
+        <Route path="/succes-auth" element={<SuccesAuth />} />
         {/* <Route path="/lesson-Grid1" element={<LessonGrid1 />} /> */}
         {/* <Route path="/lesson-Grid2" element={<LessonGrid2 />} /> */}
       </Routes>

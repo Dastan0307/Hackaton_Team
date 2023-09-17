@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Manrope:wght@300;400&family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500;1,600&display=swap');
+
+.succes_auth {
+    max-width: 1440px;
+    height: 1024px;
+    display: flex;
+}
+
+.register__info {
+    width: 640px;
+    height: 1024px;
+    background-color: #3358D2;
+    display: flex;
+    flex-direction: column;
+    font-family: Montserrat Alternates;
+}
+
+.register__info_logo {
+    width: 270px;
+    height: 75px;
+    display: flex;
+    margin: 76px auto 15px auto;
+}
+
+.register__info_mini {
+    color: rgb(255, 255, 255, 1);
+    h2 {
+        font-size: 32px;
+        font-weight: 600;
+    }
+    p {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0 10px 55px;
+}
+
+.register__info_text-long {
+    display: flex;
+    flex-direction: column;
+    margin-left: 92px;
+    p {
+        width: 234px;
+    }
+}
+
+.register__info_text-smoll {
+    margin-top: 30px;
+    p {
+        width: 269px;
+    }
+}
+
+.register__info_line {
+    width: 549.0582885742188px;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.register__info_list {
+    display: flex;
+    flex-direction: column;
+    color: rgba(255, 255, 255, 1);
+    margin: 20px 0 0 40px;
+   label {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+   }
+}
+
+
+// profile 
+
+.succes__aut_profile {
+    .success__auth_user {
+        height: 756px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    font-family: Manrope;
+    width: 800px;
+    p {
+        color: #000000;
+        font-weight: 600;
+        margin-bottom: 15px;
+    }
+    label {
+        font-size: 14px;
+        color: #504f4f;
+        margin-bottom: 74px;
+    }
+}

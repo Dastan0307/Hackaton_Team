@@ -1,9 +1,9 @@
+import Slider from 'react-slick';
 import './GallerySlider.scss';
 import '../../pages/home/Home.scss';
 import logo from '../../images/logo/Logo.png';
 import avatar from '../../images/background/user1.png';
 import timeIcon from '../../images/icons/Vector.png';
-import Slider from 'react-slick';
 import boy1 from '../../images/background/boy1.png';
 import boy2 from '../../images/background/boy2.png';
 import girl1 from '../../images/background/girl1.png';
