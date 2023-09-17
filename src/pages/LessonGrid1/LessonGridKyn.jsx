@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import "./LessonGrid.scss";
 import { Link } from "react-router-dom";
-import LessonGrid1 from "./LessonGrid1";
-import LessonGrid2 from "./LessonGrid2";
+import LessonGridKyn1 from "./LessonGridKyn1";
+import LessonGridKyn2 from "./LessonGridKyn2";
 
-const LessonGrid = () => {
-  const [test, setState] = useState(true);
-  const [isRaspisanieActive, setIsRaspisanieActive] = useState(true);
-  const [isTartipActive, setIsTartipActive] = useState(false);
+const LessonGridKyn = () => {
+  const [test, setState] = useState(false);
+  const [isRaspisanieActive, setIsRaspisanieActive] = useState(false);
+  const [isTartipActive, setIsTartipActive] = useState(true);
 
   const raspisanie = () => {
     setIsRaspisanieActive(true);
@@ -39,9 +39,9 @@ const LessonGrid = () => {
           </Link>
         </div>
       </div>
-      {test ? <LessonGrid1 /> : <LessonGrid2 />}
+      {test ? <LessonGridKyn1 /> : <LessonGridKyn2 />}
     </div>
   );
 };
 
-export default LessonGrid;
+export default LessonGridKyn;

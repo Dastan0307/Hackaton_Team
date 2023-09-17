@@ -53,7 +53,7 @@ let tartip1 = [
   },
 ];
 
-const LessonGrid2 = () => {
+const LessonGridKyn2 = () => {
   return (
     <div className="lesson2">
       <h3>
@@ -74,4 +74,4 @@ const LessonGrid2 = () => {
     </div>
   );
 };
-export default LessonGrid2;
+export default LessonGridKyn2;

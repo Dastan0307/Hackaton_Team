@@ -6,8 +6,10 @@ import Main from "./screen/Main/Main";
 import Login from "./screen/Auth/Login/Login";
 import Register from "./screen/Auth/Register/Register";
 import ProfilePage from "./screen/ProfilePage/ProfilePage";
-import DailyOrder from "./pages/DailyOrder/DailyOrder";
 import LessonGrid from "./pages/LessonGrid/LessonGrid";
+import LessonGridKyn from "./pages/LessonGrid1/LessonGridKyn";
+import DailyOrderThen from "./pages/DailyOrder1/DailyOrderThen";
+import DailyOrder from "./pages/DailyOrder/DailyOrder";
 
 function App() {
   const location = useLocation();
@@ -20,11 +22,9 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/daily-order" element={<DailyOrder />} />
-        {/* <Route path="/daily-order1" element={<DailyOrder1 />} /> */}
-        {/* <Route path="/daily-order2" element={<DailyOrder2 />} /> */}
+        <Route path="/daily-orderThen" element={<DailyOrderThen />} />
         <Route path="/lesson-Grid" element={<LessonGrid />} />
-        {/* <Route path="/lesson-Grid1" element={<LessonGrid1 />} /> */}
-        {/* <Route path="/lesson-Grid2" element={<LessonGrid2 />} /> */}
+        <Route path="/lesson-GridKyn" element={<LessonGridKyn />} />
       </Routes>
       <Footer />
     </>

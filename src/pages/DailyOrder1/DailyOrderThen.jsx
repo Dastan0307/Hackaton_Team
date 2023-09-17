@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import "./LessonGrid.scss";
+import "./DailyOrder.scss";
 import { Link } from "react-router-dom";
-import LessonGrid1 from "./LessonGrid1";
-import LessonGrid2 from "./LessonGrid2";
+import DailyOrderThen1 from "./DailyOrderThen1";
+import DailyOrderThen2 from "./DailyOrderThen2";
 
-const LessonGrid = () => {
-  const [test, setState] = useState(true);
-  const [isRaspisanieActive, setIsRaspisanieActive] = useState(true);
-  const [isTartipActive, setIsTartipActive] = useState(false);
+const DailyOrderThen = () => {
+  const [test, setState] = useState(false);
+  const [isRaspisanieActive, setIsRaspisanieActive] = useState(false);
+  const [isTartipActive, setIsTartipActive] = useState(true);
 
   const raspisanie = () => {
     setIsRaspisanieActive(true);
@@ -20,28 +20,28 @@ const LessonGrid = () => {
     setState(false);
   };
   return (
-    <div className="cont">
-      <div className="lesson">
-        <div className="lesson__first">
+    <>
+      <div className="daily">
+        <div className="daily__first">
           <Link
             onClick={raspisanie}
             className={`custom-link ${isRaspisanieActive ? "active" : ""}`}
           >
-            Кун тартип
+            Сабактардын жүгүртмөсү
           </Link>
         </div>
-        <div className="lesson__second">
+        <div className="daily__second">
           <Link
             onClick={tartip}
             className={`custom-link ${isTartipActive ? "active" : ""}`}
           >
-            Күн тартиби
+            Күнүмдук сабак темалары
           </Link>
         </div>
       </div>
-      {test ? <LessonGrid1 /> : <LessonGrid2 />}
-    </div>
+      {test ? <DailyOrderThen1 /> : <DailyOrderThen2 />}
+    </>
   );
 };
 
-export default LessonGrid;
+export default DailyOrderThen;

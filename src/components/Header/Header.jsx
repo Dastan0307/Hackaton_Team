@@ -17,25 +17,25 @@ const Header = () => {
   const menuItems = {
     forKids: [
       { linkTo: "/kuraktyk-toptor", title: "Курактык топтор" },
-      { linkTo: "/", title: "Жаңылыктар" },
-      { linkTo: "/", title: "Документтер жөнүндө маалымат" },
-      { linkTo: "/", title: "Бакчанын эрежелери" },
+      { linkTo: "/nodfoundpage", title: "Жаңылыктар" },
+      { linkTo: "/nodfoundpage", title: "Документтер жөнүндө маалымат" },
+      { linkTo: "/nodfoundpage", title: "Бакчанын эрежелери" },
     ],
     forParents: [
       { linkTo: "/lesson-Grid", title: "Сабак торчо" },
-      { linkTo: "/", title: "Күн тартип" },
+      { linkTo: "/lesson-GridKyn", title: "Күн тартип" },
       { linkTo: "/daily-order", title: "Сабак жүгүртмөсү" },
-      { linkTo: "/", title: "Табель" },
-      { linkTo: "/", title: "Кечелер" },
-      { linkTo: "/", title: "Ата-энелердин фонду жөнүндө отчет" },
-      { linkTo: "/", title: "Тамактануу" },
+      { linkTo: "/daily-orderThen", title: "Күнүмдук сабак темалары" },
+      { linkTo: "/nodfoundpage", title: "Табель" },
+      { linkTo: "/nodfoundpage", title: "Ата-энелердин фонду жөнүндө отчет" },
+      { linkTo: "/nodfoundpage", title: "Тамактануу" },
     ],
     gallery: [
       { linkTo: "/birinchi-kenje-top", title: "Биринчи кенже тоб" },
-      { linkTo: "/", title: "Экинчи кенже тоб" },
-      { linkTo: "/", title: "Ортонку тоб" },
-      { linkTo: "/", title: "Жогорку тоб" },
-      { linkTo: "/", title: "Мектепке даярдоо тобу" },
+      { linkTo: "/nodfoundpage", title: "Экинчи кенже тоб" },
+      { linkTo: "/nodfoundpage", title: "Ортонку тоб" },
+      { linkTo: "/nodfoundpage", title: "Жогорку тоб" },
+      { linkTo: "/nodfoundpage", title: "Мектепке даярдоо тобу" },
     ],
   };
 
