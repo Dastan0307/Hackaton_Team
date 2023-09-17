@@ -6,7 +6,7 @@ import "./SliderCarousel.scss";
 import children from "../../images/background/children.png";
 import ball from "../../images/background/ball.png";
 
-export const SliderCarousel = () => {
+const SliderCarousel = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -54,3 +54,5 @@ export const SliderCarousel = () => {
     </div>
   );
 };
+
+export default SliderCarousel;
