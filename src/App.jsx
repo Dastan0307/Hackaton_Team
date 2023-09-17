@@ -9,6 +9,8 @@ import ProfilePage from "./screen/ProfilePage/ProfilePage";
 import DailyOrder from "./pages/DailyOrder/DailyOrder";
 import LessonGrid from "./pages/LessonGrid/LessonGrid";
 import SuccesAuth from "./pages/SuccesAuth/SuccesAuth";
+import Table from "./screen/Table/Table";
+import Eat from "./screen/Eat/Eat";
 
 function App() {
   const location = useLocation();
@@ -25,6 +27,8 @@ function App() {
         {/* <Route path="/daily-order2" element={<DailyOrder2 />} /> */}
         <Route path="/lesson-Grid" element={<LessonGrid />} />
         <Route path="/succes-auth" element={<SuccesAuth />} />
+        <Route path="/table" element={<Table />} />
+        <Route path="/eat" element={<Eat />} />
         {/* <Route path="/lesson-Grid1" element={<LessonGrid1 />} /> */}
         {/* <Route path="/lesson-Grid2" element={<LessonGrid2 />} /> */}
       </Routes>

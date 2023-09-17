@@ -1,0 +1,40 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table__link {
+    display: flex;
+    a {
+        width: 409px;
+        height: 37px;
+        border-radius: 20px;
+        border: none;
+        font-size: 24px;
+        font-weight: bold;
+        color: #FFFFFF;
+        background-color: #D9D9D9;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .active {
+            background-color: #8CBBF2;
+        }
+    }
+    p {
+        color: #0634DE;
+        font-size: 26px;
+        font-weight: bold;
+    }
+}
+
+.table__kinder {
+    width: 1320px;
+    height: 687px;
+    p {
+        font-size: 26px;
+        color: #298D94;
+    }
+}
