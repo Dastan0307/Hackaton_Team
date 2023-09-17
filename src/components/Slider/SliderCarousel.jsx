@@ -1,19 +1,21 @@
-import React from "react";
+import React from 'react';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import "./SliderCarousel.scss";
-import children from "../../images/background/children.png";
-import ball from "../../images/background/ball.png";
+import './SliderCarousel.scss';
+import children from '../../images/background/children.png';
+import ball from '../../images/background/ball.png';
+
+
 
 export const SliderCarousel = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  };
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
 
   return (
     <div className="slides">
@@ -54,3 +56,5 @@ export const SliderCarousel = () => {
     </div>
   );
 };
+
+export default SliderCarousel;
