@@ -20,9 +20,8 @@ import oppor6 from "../img/oppor6.png";
 import oppor7 from "../img/oppor7.png";
 import family from "../img/family.png";
 import "./Main.scss";
-import Home from "./Home";
+import Home from "../../pages/home/Home";
 import axios from "axios";
-// import Slider from "../../components/Slider";
 let days = [
   {
     id: 1,

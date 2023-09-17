@@ -30,12 +30,12 @@ const Footer = () => {
             Тыныстанова 257
           </p>
           <p className="contacts__par">
-            <a href="#" class="email" id="not">
+            <a href="#" className="email" id="not">
               E-mail: edu@mail.gov.kg ibilim.kg@gmail.com
             </a>
           </p>
           <p className="contacts__par">
-            <a href="#" class="phone_number" id="not">
+            <a href="#" className="phone_number" id="not">
               Телефон: +996(312) 62-05-19
             </a>
           </p>
