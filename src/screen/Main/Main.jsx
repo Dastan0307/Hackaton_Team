@@ -243,6 +243,7 @@ const Main = () => {
             ишенимдүү маалымат булагы болууга аракет кылабыз.
           </p>
         </div>
+
         <div className="button">
           <button className="button__center">Кирүү</button>
         </div>

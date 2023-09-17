@@ -28,10 +28,10 @@ const SliderCarousel = () => {
                 жогорулатуу.
               </p>
             </div>
-            {/* <div className="slider-header__button flex flex-jc-sb flex-ai-fe">
-              <button className="slider-button">Кирүү</button>
+            <div className="slider-header__button flex flex-jc-sb flex-ai-fe">
+              {/* <button className="slider-button">Кирүү</button> */}
               <img src={ball} />
-            </div> */}
+            </div>
           </div>
           <div className="slide-picture flex flex-jc-fe">
             <img src={children} />

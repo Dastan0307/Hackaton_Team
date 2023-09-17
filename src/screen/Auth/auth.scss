@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500;1,600&display=swap");
 
 .container {
-  max-width: 1440px;
+  //   max-width: 1440px;
   height: 1024px;
   font-family: Montserrat Alternates;
   display: flex;
@@ -11,10 +11,12 @@
 .register__info {
   width: 640px;
   height: 1024px;
+  margin: auto;
   background-color: #3358d2;
   display: flex;
   flex-direction: column;
 }
+
 .register__info_logo {
   width: 270px;
   height: 75px;
