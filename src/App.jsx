@@ -7,11 +7,7 @@ import Login from "./screen/Auth/Login/Login";
 import Register from "./screen/Auth/Register/Register";
 import ProfilePage from "./screen/ProfilePage/ProfilePage";
 import DailyOrder from "./pages/DailyOrder/DailyOrder";
-import DailyOrder1 from "./pages/DailyOrder/DailyOrder1";
-import DailyOrder2 from "./pages/DailyOrder/DailyOrder2";
 import LessonGrid from "./pages/LessonGrid/LessonGrid";
-import LessonGrid1 from "./pages/LessonGrid/LessonGrid1";
-import LessonGrid2 from "./pages/LessonGrid/LessonGrid2";
 
 function App() {
   const location = useLocation();
@@ -24,11 +20,11 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/daily-order" element={<DailyOrder />} />
-        <Route path="/daily-order1" element={<DailyOrder1 />} />
-        <Route path="/daily-order2" element={<DailyOrder2 />} />
+        {/* <Route path="/daily-order1" element={<DailyOrder1 />} /> */}
+        {/* <Route path="/daily-order2" element={<DailyOrder2 />} /> */}
         <Route path="/lesson-Grid" element={<LessonGrid />} />
-        <Route path="/lesson-Grid1" element={<LessonGrid1 />} />
-        <Route path="/lesson-Grid2" element={<LessonGrid2 />} />
+        {/* <Route path="/lesson-Grid1" element={<LessonGrid1 />} /> */}
+        {/* <Route path="/lesson-Grid2" element={<LessonGrid2 />} /> */}
       </Routes>
       <Footer />
     </>

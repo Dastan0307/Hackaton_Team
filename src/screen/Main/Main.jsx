@@ -61,7 +61,7 @@ let babies = [
     id: 2,
     imag: baby2,
     text1: "2-кенже тоб",
-    text2: "3 жаш",
+    text2: "3",
   },
   {
     id: 3,
@@ -106,7 +106,6 @@ const Main = () => {
   return (
     <>
       <div className="my-container">
-        {/* <Slider /> */}
         <Home />
         <div className="section-header">
           <h2 className="section-title">Система жөнүндө</h2>

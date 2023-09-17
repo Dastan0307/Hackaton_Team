@@ -16,86 +16,63 @@ let lesson1 = [
 let lesson2 = [
   {
     id: 1,
-    time: " 3. 15:30",
-    ras: "Логопед",
-    kabin: "Балалык тобу",
+    time1: " 3. 15:30",
+    ras1: "Логопед",
+    kabin1: "Балалык тобу",
   },
   {
     id: 2,
-    time: "4. 15:30",
-    ras: "Дене тарбия",
-    kabin: "Спорт зал",
+    time1: "4. 15:30",
+    ras1: "Дене тарбия",
+    kabin1: "Спорт зал",
   },
 ];
 const LessonGrid1 = () => {
   return (
     <div>
-      <div>
-        <h2>Орто тоб “Балалык” 20 мүнөт</h2>
-        <div>
+      <div className="lessonGrid">
+        <h2 className="lessonGrid__h2">Орто тоб “Балалык” 20 мүнөт</h2>
+        <div className="lessonGrid__flex">
           <h3>Сабактар</h3>
           <h3>Кабинеттер</h3>
         </div>
-        {lesson1.map((value, index) => {
-          return (
-            <div className="" key={index}>
-              <h4>Күндүн биринчи жарымы</h4>
-              <div>
-                <p>
-                  <span>{value.time}</span>
-                </p>
-                <div>
-                  <p>{value.ras}</p>
+        <div>
+          <h4 className="lessonGrid__h4">Күндүн биринчи жарымы</h4>
+          {lesson1.map((value, index) => {
+            return (
+              <div className="" key={index}>
+                <div className="lessonGrid__flex1">
+                  <p>
+                    <span>{value.time} </span>
+                    {value.ras}
+                  </p>
                   <p>{value.kabin}</p>
                 </div>
+                <hr />
               </div>
-            </div>
-          );
-        })}
-        {lesson2.map((value, index) => {
-          return (
-            <div className="" key={index}>
-              <h4>Күндүн биринчи жарымы</h4>
-              <div>
-                <p>
-                  <span>{value.time}</span>
-                </p>
-                <div>
-                  <p>{value.ras}</p>
-                  <p>{value.kabin}</p>
+            );
+          })}
+        </div>
+        <div>
+          <h4 className="lessonGrid__h4">Күндүн экинчи жарымы</h4>
+          {lesson2.map((value1, id) => {
+            return (
+              <div className="" key={id}>
+                <div className="lessonGrid__flex1">
+                  <p>
+                    <span>{value1.time1} </span>
+                    {value1.ras1}
+                  </p>
+                  <p>{value1.kabin1}</p>
                 </div>
+                <hr />
               </div>
-            </div>
-          );
-        })}
+            );
+          })}
+        </div>
       </div>
     </div>
   );
 };
 
 export default LessonGrid1;
-
-// {lesson1.map((value, index) => {
-//   return (
-// <div>
-// <div>
-// <h4>Күндүн биринчи жарымы</h4>
-// <div>
-//   <p>
-//     <span>1. 09:00</span>
-//   </p>
-//   <p></p>
-// </div>
-// </div>
-// {/* <div>
-// <h4>Күндүн экинчи жарымы</h4>
-// <div>
-//   <p>
-//     <span>1. 09:00</span>
-//   </p>
-//   <p></p>
-// </div>
-// </div>
-// <div> */}
-// );
-// })}

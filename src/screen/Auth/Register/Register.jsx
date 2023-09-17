@@ -29,8 +29,7 @@ const Register = () => {
                     <label ><input type="checkbox" /> Биз бала бакчабыз</label>
                     <label ><input type="checkbox" /> Ата-энебиз</label>
                     <label ><input type="checkbox" /> Биз тарбиячыбыз</label>
-                </div>
-
+                </div>  
                 <form className='form'>
                     <input type="text" placeholder='Ысым (Логин)' />
                     <input type="text" placeholder='Пароль:' />
