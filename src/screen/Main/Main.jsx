@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Google from "../img/Google.png";
 import AppStore from "../img/AppStore.png";
 import baby1 from "../img/baby1.png";
@@ -20,8 +20,9 @@ import oppor6 from "../img/oppor6.png";
 import oppor7 from "../img/oppor7.png";
 import family from "../img/family.png";
 import "./Main.scss";
-import Home from "../../pages/home/Home";
-// import Carousel from "./Carousel";
+import Home from "./Home";
+import axios from "axios";
+// import Slider from "../../components/Slider";
 let days = [
   {
     id: 1,
@@ -82,6 +83,26 @@ let babies = [
   },
 ];
 const Main = () => {
+  useEffect(() => {
+    const test = async () => {
+      try {
+        const response = await axios.post(
+          "http://1234/api/auth/registration/web",
+          {
+            childGardenName: "string",
+            language: "string",
+            email: "mama@gmail.com",
+            password: "12345678",
+            roleName: "PARENT",
+            phoneNumber: "+996555555555",
+          }
+        );
+      } catch (error) {
+        console.log(error);
+      }
+    };
+    test();
+  }, []);
   return (
     <>
       <div className="my-container">
@@ -223,6 +244,7 @@ const Main = () => {
             ишенимдүү маалымат булагы болууга аракет кылабыз.
           </p>
         </div>
+
         <div className="button">
           <button className="button__center">Кирүү</button>
         </div>
