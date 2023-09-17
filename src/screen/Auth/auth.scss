@@ -1,251 +1,254 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500;1,600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500;1,600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;1,400;1,500;1,600&display=swap");
 
+.link {
+  text-decoration: none;
+  color: inherit;
+}
 .container {
-    max-width: 1440px;
-    height: 1024px;
-    font-family: Montserrat Alternates;
-    display: flex;
+  max-width: 1440px;
+  height: 1024px;
+  font-family: Montserrat Alternates;
+  display: flex;
 }
 
 .register__info {
-    width: 640px;
-    height: 1024px;
-    background-color: #3358D2;
-    display: flex;
-    flex-direction: column;
+  //   width: 640px;
+  height: 1024px;
+  //   margin-left: 2rem;
+  background-color: #3358d2;
+  display: flex;
+  flex-direction: column;
 }
-
 .register__info_logo {
-    width: 270px;
-    height: 75px;
-    display: flex;
-    margin: 76px auto 15px auto;
+  width: 270px;
+  height: 75px;
+  display: flex;
+  margin: 76px auto 15px auto;
 }
 
 .register__info_mini {
-    color: rgb(255, 255, 255, 1);
-    h2 {
-        font-size: 32px;
-        font-weight: 600;
-    }
-    p {
-        font-size: 20px;
-        font-weight: 400;
-    }
-    display: flex;
-    flex-wrap: wrap;
-    margin: 30px 0 10px 55px;
+  color: rgb(255, 255, 255, 1);
+  h2 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px 0 10px 55px;
 }
 
 .register__info_text-long {
-    display: flex;
-    flex-direction: column;
-    margin-left: 92px;
-    p {
-        width: 234px;
-    }
+  display: flex;
+  flex-direction: column;
+  margin-left: 92px;
+  p {
+    width: 234px;
+  }
 }
 
 .register__info_text-smoll {
-    margin-top: 30px;
-    p {
-        width: 269px;
-    }
+  margin-top: 30px;
+  p {
+    width: 269px;
+  }
 }
 
 .register__info_line {
-    width: 549.0582885742188px;
-    color: #FFFFFF;
-    margin-top: 30px;
-    margin-bottom: 45px;
+  width: 549.0582885742188px;
+  color: #ffffff;
+  margin-top: 30px;
+  margin-bottom: 45px;
 }
 
 .register__info_list {
-    display: flex;
-    flex-direction: column;
-    color: rgba(255, 255, 255, 1);
-    margin: 20px 0 0 40px;
-   label {
+  display: flex;
+  flex-direction: column;
+  color: rgba(255, 255, 255, 1);
+  margin: 20px 0 0 40px;
+  label {
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 30px;
-   }
+  }
 }
-
 
 // register__form
 
 .register__form {
-    width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 7% 0 0 0;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 7% 0 0 0;
 }
 
 .register__form_choice {
-    width: 71%;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 19px;
-    color: rgba(18, 18, 18, 1);
-    p {
-        font-size: 24px;
-        font-weight: 400;
-        margin: 10px 0 30px 0;
-    }
-    label {
-        font-size: 20px;
-        margin: 10px 95px 20px 0;
-    }
+  width: 71%;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 19px;
+  color: rgba(18, 18, 18, 1);
+  p {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0 30px 0;
+  }
+  label {
+    font-size: 20px;
+    margin: 10px 95px 20px 0;
+  }
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    input {
-        width: 450px;
-        height: 40px;
-        background: rgba(217, 217, 217, 1);
-        border: none;
-        border-radius: 10px;
-        padding: 10px;
-        margin: 15px 120px 10px 0;
-        color: #3358D2;
-        font-family: Inter;
-    }
-    label {
-        font-family: Inter;
-        margin: 10px 0 5px 8px;
-    }
-    .form__inp {
-        width: 450px;
-        height: 40px;
-        background: rgba(217, 217, 217, 1);
-        border: none;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-    .form-tele {
-        margin-top: 1px;
-    }
+  display: flex;
+  flex-direction: column;
+  input {
+    width: 450px;
+    height: 40px;
+    background: rgba(217, 217, 217, 1);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 120px 10px 0;
+    color: #3358d2;
+    font-family: Inter;
+  }
+  label {
+    font-family: Inter;
+    margin: 10px 0 5px 8px;
+  }
+  .form__inp {
+    width: 450px;
+    height: 40px;
+    background: rgba(217, 217, 217, 1);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  .form-tele {
+    margin-top: 1px;
+  }
 }
 
 .form__text {
-    font-family: Inter;
-    margin: 20px 0 0 -15px;
-    display: flex;
-    input {
-        margin-right: 19px;
-        width: 22px;
-        height: 24px;
-    }
-    p {
-        width: 515px;
-        font-weight: 400;
-    }
+  font-family: Inter;
+  margin: 20px 0 0 -15px;
+  display: flex;
+  input {
+    margin-right: 19px;
+    width: 22px;
+    height: 24px;
+  }
+  p {
+    width: 515px;
+    font-weight: 400;
+  }
 }
 
 .form__btn {
-    width: 187px;
-    height: 66px;
-    top: 825px;
-    left: 739px;
-    border-radius: 20px;
-    background-color: rgba(51, 88, 210, 1);
-    color: rgba(255, 255, 255, 1);
-    font-size: 32px;
-    font-family: Inter;
-    border: none;
-    margin: 60px 49% 0 0;
+  width: 187px;
+  height: 66px;
+  top: 825px;
+  left: 739px;
+  border-radius: 20px;
+  background-color: rgba(51, 88, 210, 1);
+  color: rgba(255, 255, 255, 1);
+  font-size: 32px;
+  font-family: Inter;
+  border: none;
+  margin: 60px 49% 0 0;
 }
 
-// login 
+// login
 
 .login__form {
-    width: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: Inter;
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
 }
 
 .login__form_container {
-    width: 582px;
-    height: 646px;
+  width: 582px;
+  height: 646px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-size: 32px;
+    color: #1b1c1f;
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-family: Inter;
+  }
+  label {
+    color: #1b1c1f;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    h2 {
-        font-size: 32px;
-        color: #1B1C1F;
-        font-weight: bold;
-        margin-bottom: 30px;
-        font-family: Inter;
-    }
-    label {
-        color: #1B1C1F;
-        display: flex;  
-        font-weight: 400;
-        margin-right: 225px;
-        margin-bottom: 10px;
-    }
-    input {
-        width: 380px;
-        height: 50px;
-        border-radius: 10px;
-        background: #FFFFFF;
-        border: 1px solid #000000;
-        font-size: 16px;
-        padding-left: 15px;
-        margin-bottom: 20px;
-    }
-    .login__form_label {
-        width: 380px;
-        margin-left: 225px;
-        a {
-            font-size: 13px;
-            color: #2B59C3;
-            font-weight: 500;
-            margin-left: 125px;
-            text-decoration:underline
-        }
-    }
-    .login__form_btn {
-        width: 380px;
-        height: 50px;
-        background-color: #2B59C3;
-        border-radius: 10px;
-        border: none;
-        color: #FFFFFF;
-        font-weight: 400;
-        font-size: 16px;
-        margin-bottom: 25px;
-    }
-
-    p {
-        font-size: 14px;
-        color: #767E8C;
-        margin-bottom: 25px;
-    }
-    .login__form_btn-google {
-        width: 380px;
-        height: 50px;
-        background-color: #E0E5ED;
-        border-radius: 10px;
-        border: 1px solid #767E8C;
-        color: #767E8C;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: Montserrat Alternates;
-        font-size: 16px;
-        margin-bottom: 30px;
-    }
+    font-weight: 400;
+    margin-right: 225px;
+    margin-bottom: 10px;
+  }
+  input {
+    width: 380px;
+    height: 50px;
+    border-radius: 10px;
+    background: #ffffff;
+    border: 1px solid #000000;
+    font-size: 16px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+  .login__form_label {
+    width: 380px;
+    margin-left: 225px;
     a {
-        color: #767E8C;
-        font-size: 16px;
-        text-decoration: none;
+      font-size: 13px;
+      color: #2b59c3;
+      font-weight: 500;
+      margin-left: 125px;
+      text-decoration: underline;
     }
+  }
+  .login__form_btn {
+    width: 380px;
+    height: 50px;
+    background-color: #2b59c3;
+    border-radius: 10px;
+    border: none;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  p {
+    font-size: 14px;
+    color: #767e8c;
+    margin-bottom: 25px;
+  }
+  .login__form_btn-google {
+    width: 380px;
+    height: 50px;
+    background-color: #e0e5ed;
+    border-radius: 10px;
+    border: 1px solid #767e8c;
+    color: #767e8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  a {
+    color: #767e8c;
+    font-size: 16px;
+    text-decoration: none;
+  }
 }
