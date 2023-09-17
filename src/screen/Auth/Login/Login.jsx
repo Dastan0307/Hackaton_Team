@@ -1,8 +1,34 @@
 import GoogleIcon from '@mui/icons-material/Google';
 import logo from '../../../assets/Logo.svg'
 import '../auth.scss'
+import { useState } from 'react';
+import { useDispatch } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
+import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
+import { setUser } from '../../../store/slices/userSlice';
 
 const Login = () => {
+  const [ email, setEmail ] = useState('');
+  const [ password, setPassword ] = useState('');
+  
+  const dispatch = useDispatch();
+  const navigate = useNavigate();
+
+  const handleLogin = () => {
+      const auth = getAuth();
+      console.log(auth);
+      signInWithEmailAndPassword(auth, email, password)
+          .then(({user}) => {
+              dispatch(setUser({
+                  email: user.email, 
+                  id: user.uid,
+                  token: user.accessToken,
+              }));
+              navigate('/')
+          })
+          .catch(() => alert('Invalid user!'))  
+  }
+
   return (
     <>
         <div className="container">
@@ -27,10 +53,10 @@ const Login = () => {
                 <div className="login__form_container">
                   <h2>Аккаунтка кирүү</h2>
                   <label>Электрондук почта</label>
-                  <input type="email" placeholder='user@gmail.com' />
+                  <input type="email" placeholder='user@gmail.com' onChange={(e) => setEmail(e.target.value)} />
                   <label className='login__form_label'>Сыр сөз <a href="#">Сыр сөзүңүздү унуттуңузбу?</a></label>
-                  <input type="password" placeholder='********' />
-                  <button className='login__form_btn'>Кирүү</button>
+                  <input type="password" placeholder='********' onChange={(e) => setPassword(e.target.value) }/>
+                  <button className='login__form_btn' onClick={() => handleLogin()}>Кирүү</button>
                   <p>же болбосо</p>
                   <button className='login__form_btn-google'><GoogleIcon color='primary' style={{ marginRight: 7 }}/>Google аркылуу кирүү</button>
                   <a href="register">Азырынча аккантуңуз жокпу? Катталуу</a>

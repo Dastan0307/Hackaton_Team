@@ -6,12 +6,16 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import CloseIcon from '@mui/icons-material/Close';
+import { useNavigate } from 'react-router-dom';
 import './profilepage.scss'
 
+
 const ProfilePage = () => {
+    const navigate = useNavigate();
+
   return  (
         <div className="profile">
-            <CloseIcon style={{ color: 'white', margin: '0 0 60px 418px' }} />
+            <CloseIcon onClick={() => navigate('../')} style={{ color: 'white', margin: '0 0 60px 418px', cursor: 'pointer' }} />
             <AccountCircleIcon color="action" style={{ width: 70, height: 70, color: 'white' }} />
             <p className='proflie__text'>Ортонку группа</p>
             <h3>Алимова Наиля</h3>
