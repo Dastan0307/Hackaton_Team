@@ -27,7 +27,7 @@ const LessonGrid = () => {
             onClick={raspisanie}
             className={`custom-link ${isRaspisanieActive ? "active" : ""}`}
           >
-            Расписание
+            Күн тартип
           </Link>
         </div>
         <div className="lesson__second">

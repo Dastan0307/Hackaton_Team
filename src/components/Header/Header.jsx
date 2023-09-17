@@ -56,7 +56,9 @@ const Header = () => {
             </Link>
           </div>
           <ul className="navbar-menu flex flex-jc-sa flex-ai-c">
-            <li className="navbar-menu__items">Башкы бет</li>
+            <Link to={"/"}>
+              <li className="navbar-menu__items">Башкы бет</li>
+            </Link>
             <li
               className="navbar-menu__items"
               onMouseLeave={() => handleMouseLeave("forKids")}

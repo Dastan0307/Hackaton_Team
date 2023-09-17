@@ -85,7 +85,6 @@ const Main = () => {
   return (
     <>
       <div className="my-container">
-        {/* <Slider /> */}
         <Home />
         <div className="section-header">
           <h2 className="section-title">Система жөнүндө</h2>
